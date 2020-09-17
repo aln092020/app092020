@@ -5,7 +5,7 @@ cd app092020<br>
 <br>
 Installing dependencies:<br>
 <br>
-#app create on python version = 3.6
+#app create on python version = 3.6<br>
 pip install -r requirements.txt<br>
 <br>
 
