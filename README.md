@@ -1,24 +1,24 @@
-Installation:
-Clone repository
-https://github.com/aln092020/app092020.git
-cd app092020
+Installation:<br>
+Clone repository<br>
+git clone https://github.com/aln092020/app092020.git<br>
+cd app092020<br>
+<br>
+Installing dependencies:<br>
+pip install -r requirements.txt<br>
+<br>
 
-Installing dependencies:
-pip install -r requirements.txt
-
-
-
+<br>
 #python version = 3.6
+<br>
+Migrations:<br>
+python manage.py makemigrations<br>
+python manage.py migrate<br>
+<br>
+Create super user:<br>
+python manage.py createsuperuser<br>
+<br>
+Run App:<br>
+python manage.py runserver<br>
 
-Migrations:
-python manage.py makemigrations
-python manage.py migrate
-
-Create super user:
-python manage.py createsuperuser
-
-Run App:
-python manage.py runserver
-
-
-in browser go to http://localhost:8000/
+<br>
+in browser go to http://localhost:8000/<br>
