@@ -4,11 +4,11 @@ git clone https://github.com/aln092020/app092020.git<br>
 cd app092020<br>
 <br>
 Installing dependencies:<br>
+<br>
+#app create on python version = 3.6
 pip install -r requirements.txt<br>
 <br>
 
-<br>
-#python version = 3.6
 <br>
 Migrations:<br>
 python manage.py makemigrations<br>
